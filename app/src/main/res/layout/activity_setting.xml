@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_activity_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_120dp"
+        android:layout_marginTop="@dimen/dimen_70dp"
+        android:text="设置"
+        android:textSize="@dimen/dimen_60sp" />
+
+    <ImageView
+        android:layout_width="@dimen/dimen_10dp"
+        android:layout_height="@dimen/dimen_80dp"
+        android:layout_alignBottom="@+id/tv_activity_title"
+        android:layout_marginStart="@dimen/dimen_90dp"
+        android:background="@drawable/history_title_image"
+         />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/setting_weather"
+            android:layout_width="@dimen/dimen_360dp"
+            android:layout_height="@dimen/dimen_330dp"
+            android:background="@drawable/bg_boot_custom"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/setting_weather_ImageView"
+                android:layout_width="@dimen/dimen_360dp"
+                android:layout_height="@dimen/dimen_330dp"
+                android:background="@drawable/set_icon_weather"
+                android:contentDescription="@drawable/set_icon_weather" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/setting_weather_ImageView"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="@dimen/dimen_48dp"
+                android:text="天气设置"
+                android:textColor="#f0f0f0"
+                android:textSize="@dimen/dimen_36sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/setting_update"
+            android:layout_width="@dimen/dimen_360dp"
+            android:layout_height="@dimen/dimen_330dp"
+            android:layout_marginStart="@dimen/dimen_100dp"
+            android:background="@drawable/bg_boot_custom"
+            android:clickable="true"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true">
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/dimen_360dp"
+                android:layout_height="@dimen/dimen_330dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ll_update_ImageView"
+                    android:layout_width="@dimen/dimen_360dp"
+                    android:layout_height="@dimen/dimen_330dp"
+                    android:background="@drawable/set_icon_up"
+                    android:contentDescription="@drawable/set_icon_up" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/ll_update_ImageView"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="@dimen/dimen_48dp"
+                    android:text="软件升级"
+                    android:textColor="#f0f0f0"
+                    android:textSize="@dimen/dimen_36sp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_update"
+                android:layout_width="@dimen/dimen_180dp"
+                android:layout_height="@dimen/dimen_180dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="@dimen/dimen_1dp"
+                android:layout_marginTop="@dimen/dimen_1dp"
+                android:background="@drawable/setting_tips"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/boot_custom"
+            android:layout_width="@dimen/dimen_360dp"
+            android:layout_height="@dimen/dimen_330dp"
+            android:layout_marginStart="@dimen/dimen_100dp"
+            android:background="@drawable/bg_boot_custom"
+            android:clickable="true"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/setting_start_ImageView"
+                android:layout_width="@dimen/dimen_360dp"
+                android:layout_height="@dimen/dimen_330dp"
+                android:background="@drawable/set_icon_custom"
+                android:contentDescription="@drawable/set_icon_custom" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/setting_start_ImageView"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="@dimen/dimen_48dp"
+                android:text="开机自定义"
+                android:textColor="#f0f0f0"
+                android:textSize="@dimen/dimen_36sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+
+</RelativeLayout>

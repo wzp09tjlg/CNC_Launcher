@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apiengine-r24200">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/apiengine-r24200.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

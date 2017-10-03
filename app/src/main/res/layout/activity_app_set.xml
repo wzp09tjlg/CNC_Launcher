@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_appset_title"
+        style="@style/TextShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_188dp"
+        android:layout_marginTop="@dimen/dimen_120dp"
+        android:text="@string/app_set_title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dimen_56sp" />
+
+    <cn.cncgroup.tv.ui.widget.gridview.VerticalGridView
+        android:id="@+id/appset_menu"
+        android:layout_width="@dimen/dimen_400dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_appset_title"
+        android:layout_marginStart="@dimen/dimen_96dp"
+        android:layout_marginTop="@dimen/dimen_90dp"
+        app:verticalMargin="@dimen/dimen_24dp" />
+
+    <View
+        android:layout_marginStart="@dimen/dimen_60dp"
+        android:id="@+id/split_line"
+        android:layout_width="@dimen/dimen_3dp"
+        android:layout_height="@dimen/dimen_900dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/appset_menu"
+        android:background="@drawable/about_split_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_60dp"
+        android:layout_toEndOf="@id/split_line">
+
+        <RelativeLayout
+            android:layout_marginEnd="@dimen/dimen_76dp"
+            android:id="@+id/rl_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:padding="@dimen/dimen_20dp">
+
+            <TextView
+                android:id="@+id/tv_sdcard_size"
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:textSize="@dimen/dimen_28sp" />
+
+            <ProgressBar
+                android:id="@+id/pb_sdcard_used"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/dimen_450dp"
+                android:layout_height="@dimen/dimen_22dp"
+                android:layout_marginBottom="@dimen/dimen_30dp"
+                android:layout_marginTop="@dimen/dimen_45dp"
+                android:progress="40"
+                android:progressDrawable="@drawable/file_progress_bg" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/app_set_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl_progressbar" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

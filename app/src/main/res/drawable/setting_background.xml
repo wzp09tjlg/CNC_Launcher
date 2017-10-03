@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@drawable/bg_view_focused" android:state_focused="false" />-->
+    <stroke android:width="0.5dp" android:color="@color/white_20" />
+    <corners android:radius="@dimen/dimen_5dp" />
+
+</shape>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen_6dp"
+    android:layout_marginLeft="@dimen/dimen_96dp"
+    android:layout_marginRight="@dimen/dimen_48dp"
+    android:layout_marginTop="@dimen/dimen_6dp"
+    android:background="@drawable/shape_image_all"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:nextFocusUp="@+id/gallery">
+
+    <ImageView
+        android:layout_width="@dimen/dimen_334dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/icon_all" />
+</FrameLayout>

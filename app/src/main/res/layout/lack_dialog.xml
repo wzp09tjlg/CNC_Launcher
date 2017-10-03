@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_720dp"
+    android:layout_height="@dimen/dimen_408dp"
+    android:background="@drawable/dialog_bg"
+    >
+    <TextView
+        android:id="@+id/dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimen_42sp"
+        android:text="@string/dialog_text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_110dp"
+        />
+    <TextView
+        android:id="@+id/dialog_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimen_32sp"
+        android:text="@string/dialog_text2"
+        android:layout_alignLeft="@+id/dialog_text"
+        android:layout_below="@+id/dialog_text"
+        />
+
+    <RelativeLayout
+        android:id="@+id/dialog_rl_positive"
+        android:layout_width="@dimen/dimen_292dp"
+        android:layout_height="@dimen/dimen_96dp"
+        android:background="@drawable/home_item_background"
+        android:layout_below="@+id/dialog_text2"
+        android:layout_marginLeft="@dimen/dimen_50dp"
+        android:layout_marginTop="@dimen/dimen_50dp"
+        android:clickable="true"
+        android:focusable="true"
+        >
+
+            <TextView
+            android:id="@+id/negativeButton"
+            android:layout_width="@dimen/dimen_420dp"
+            android:layout_height="@dimen/dimen_180dp"
+            android:layout_margin="@dimen/dimen_6dp"
+            android:background="@drawable/dialog_button_bg"
+            android:text="@string/dialog_text3"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dimen_38sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="@dimen/dimen_20dp"
+        android:layout_height="0dp" />
+
+    <RelativeLayout
+        android:id="@+id/dialog_rl_negative"
+        android:layout_width="@dimen/dimen_292dp"
+        android:layout_height="@dimen/dimen_96dp"
+        android:background="@drawable/home_item_background"
+        android:layout_marginTop="@dimen/dimen_50dp"
+        android:layout_marginLeft="@dimen/dimen_30dp"
+        android:layout_below="@+id/dialog_text2"
+        android:layout_toRightOf="@+id/dialog_rl_positive"
+        android:clickable="true"
+        android:focusable="true"
+        >
+
+        <TextView
+            android:id="@+id/positiveButton"
+            android:layout_width="@dimen/dimen_420dp"
+            android:layout_height="@dimen/dimen_280dp"
+            android:layout_margin="@dimen/dimen_6dp"
+            android:background="@drawable/dialog_button_bg"
+            android:text="@string/dialog_text4"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dimen_38sp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/table_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_180dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/tv_boot_custom_back"
+            android:layout_width="@dimen/dimen_28dp"
+            android:layout_height="@dimen/dimen_46dp"
+            android:layout_marginStart="@dimen/dimen_82dp"
+            android:background="@drawable/icon_back"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_boot_custom_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_24dp"
+            android:text="开机自定义"
+            android:textColor="#f0f0f0"
+            android:textSize="@dimen/dimen_54sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1dp"
+        android:layout_marginLeft="@dimen/dimen_96dp"
+        android:layout_marginRight="@dimen/dimen_96dp"
+        android:layout_marginTop="@dimen/dimen_140dp"
+        android:background="#adadad" />
+
+    <cn.cncgroup.tv.ui.widget.gridview.VerticalGridView
+        android:id="@+id/list_verticalgridview"
+        android:background="@color/black_20"
+        android:layout_width="@dimen/dimen_320dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/dimen_82dp"
+        android:layout_below="@+id/table_linearLayout"
+        android:layout_marginBottom="@dimen/dimen_50dp"
+        android:layout_marginTop="@dimen/dimen_50dp"
+        android:orientation="vertical"
+        android:nextFocusDown="@id/list_verticalgridview"
+        android:nextFocusUp="@id/list_verticalgridview"
+        android:nextFocusLeft="@id/list_verticalgridview"
+        android:nextFocusRight="@id/list_verticalgridview"
+        android:focusable="true"
+        />
+
+    <RelativeLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/list_verticalgridview"
+        android:layout_marginStart="@dimen/dimen_100dp"
+        android:layout_marginRight="@dimen/dimen_200dp"
+        android:layout_marginBottom="@dimen/dimen_50dp"
+        android:layout_alignTop="@+id/list_verticalgridview"
+        android:layout_alignParentEnd="true">
+
+    </RelativeLayout>
+
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+</RelativeLayout>

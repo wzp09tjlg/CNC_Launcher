@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/dimen_228dp"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/history_img_icon"
+        android:layout_width="@dimen/dimen_228dp"
+        android:layout_height="@dimen/dimen_316dp"
+        android:background="@drawable/item_video_list_icon_shape"
+        android:duplicateParentState="true"
+        fresco:actualImageScaleType="centerCrop"
+        fresco:placeholderImage="@drawable/default_video_postbg"
+        fresco:placeholderImageScaleType="fitXY"
+        fresco:roundedCornerRadius="@dimen/dimen_8dp" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_focus_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/history_img_icon"
+        android:duplicateParentState="true"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:id="@+id/pb_play_time"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_8dp"
+            android:duplicateParentState="true"
+            android:progress="40"
+            android:progressDrawable="@drawable/history_progress_bg" />
+
+        <LinearLayout
+            android:id="@+id/ll_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_62dp"
+            android:layout_below="@+id/pb_play_time"
+            android:background="@drawable/history_text_bg_drawable"
+            android:duplicateParentState="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dimen_10dp"
+                android:paddingRight="@dimen/dimen_10dp"
+                android:text="观看至"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_26sp" />
+
+            <TextView
+                android:id="@+id/history_play_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dimen_10dp"
+                android:paddingRight="@dimen/dimen_10dp"
+                android:text=" 16：32"
+                android:textColor="@color/feedback_item4"
+                android:textSize="@dimen/dimen_26sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_history_delete"
+        android:layout_width="@dimen/dimen_228dp"
+        android:layout_height="@dimen/dimen_316dp"
+        android:background="@drawable/bg_collect_delete_cover_round"
+        android:duplicateParentState="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:longClickable="false"
+            android:src="@drawable/app_set_unload" />
+    </RelativeLayout>
+
+
+    <cn.cncgroup.tv.ui.widget.MarqueeTextView
+        android:id="@+id/history_text_name"
+        android:layout_width="@dimen/dimen_228dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/history_img_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="@dimen/dimen_30dp"
+        android:layout_marginStart="@dimen/dimen_30dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textSize="@dimen/dimen_30sp" />
+
+</RelativeLayout>

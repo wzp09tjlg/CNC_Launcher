@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/dimen_1920dp"
+    android:layout_height="@dimen/dimen_360dp"
+    android:alpha="0.7">
+
+    <cn.cncgroup.tv.ui.widget.gridview.VerticalGridView
+        android:id="@+id/video_list_grid_select_menu"
+        android:layout_width="@dimen/dimen_144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_246dp"
+        android:layout_marginTop="@dimen/dimen_50dp"
+        app:numberOfColumns="1"
+        app:verticalMargin="@dimen/dimen_22dp"/>
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_title_focus"
+        android:visibility="invisible" />
+
+    <cn.cncgroup.tv.ui.widget.gridview.VerticalGridView
+        android:id="@+id/video_list_grid_select"
+        android:layout_width="@dimen/dimen_1320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_452dp"
+        android:layout_marginTop="@dimen/dimen_15dp"
+        app:numberOfColumns="1"
+        app:verticalMargin="@dimen/dimen_038dp">
+        <requestFocus />
+    </cn.cncgroup.tv.ui.widget.gridview.VerticalGridView>
+</RelativeLayout>

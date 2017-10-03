@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_64dp"
+        android:layout_marginTop="@dimen/dimen_98dp"
+        android:textColor="@color/white_40"
+        android:textSize="@dimen/dimen_36sp" />
+
+    <ImageView
+        android:id="@+id/line_search"
+        android:layout_width="@dimen/dimen_1120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="@dimen/dimen_64dp"
+        android:layout_marginTop="@dimen/dimen_22dp"
+        android:src="@drawable/line_search" />
+
+    <cn.cncgroup.tv.ui.widget.CustomScrollVerticalGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/line_search"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dimen_23dp"
+        android:layout_marginRight="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_50dp"
+        android:layout_marginBottom="@dimen/dimen_16dp"
+        android:fadeScrollbars="false"
+        android:gravity="center"
+        android:scrollbarSize="@dimen/dimen_12dp"
+        app:focusOutFront="true"
+        android:scrollbarStyle="insideInset"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical"
+        android:scrollbarTrackVertical="@drawable/scrollbar_track_vertical"
+        android:scrollbars="vertical"
+        app:verticalMargin="@dimen/dimen_70dp"
+        app:numberOfColumns="4"  />
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible"
+        />
+</RelativeLayout>

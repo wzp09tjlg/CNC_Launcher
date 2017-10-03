@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:id="@+id/bg_boot_start"
+        android:layout_width="@dimen/dimen_970dp"
+        android:layout_height="@dimen/dimen_125dp"
+        android:descendantFocusability="beforeDescendants"
+        android:focusable="true"
+        android:background="@drawable/setting_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dimen_56dp"
+            android:text="开机自动启动CNC"
+            android:textColor="#f0f0f0"
+            android:textSize="@dimen/dimen_40sp" />
+
+        <TextView
+            android:id="@+id/off_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bg_boot_start_imageview"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:layout_toStartOf="@+id/bg_boot_start_imageview"
+            android:text="关"
+            android:textSize="@dimen/dimen_40sp" />
+
+        <ImageView
+            android:id="@+id/bg_boot_start_imageview"
+            android:layout_width="@dimen/dimen_100dp"
+            android:layout_height="@dimen/dimen_46dp"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:layout_toStartOf="@+id/on_textview" />
+
+        <TextView
+            android:id="@+id/on_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bg_boot_start_imageview"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/dimen_56dp"
+            android:text="开"
+            android:textSize="@dimen/dimen_40sp" />
+    </RelativeLayout>
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+</RelativeLayout>

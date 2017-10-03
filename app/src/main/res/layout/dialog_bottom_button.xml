@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_btn_content"
+    android:layout_width="@dimen/dimen_720dp"
+    android:layout_height="@dimen/dimen_300dp"
+    android:layout_gravity="bottom">
+
+    <RelativeLayout
+        android:id="@+id/dialog_rl_negative"
+        android:layout_width="@dimen/dimen_380dp"
+        android:layout_height="@dimen/dimen_150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="@dimen/dimen_020dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <cn.cncgroup.tv.ui.widget.ItemGridview
+            android:layout_width="@dimen/dimen_323dp"
+            android:layout_height="@dimen/dimen_93dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/home_dialgo_btn_left"
+            android:duplicateParentState="true" />
+
+        <TextView
+            android:id="@+id/negativeButton"
+            android:layout_width="@dimen/dimen_200dp"
+            android:layout_height="@dimen/dimen_100dp"
+            android:layout_centerInParent="true"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/dismiss"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dimen_38sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dialog_rl_positive"
+        android:layout_width="@dimen/dimen_380dp"
+        android:layout_height="@dimen/dimen_150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="@dimen/dimen_020dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <cn.cncgroup.tv.ui.widget.ItemGridview
+            android:layout_width="@dimen/dimen_323dp"
+            android:layout_height="@dimen/dimen_93dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/home_dialog_btn_right"
+            android:duplicateParentState="true" />
+
+        <TextView
+            android:id="@+id/positiveButton"
+            android:layout_width="@dimen/dimen_200dp"
+            android:layout_height="@dimen/dimen_100dp"
+            android:layout_centerInParent="true"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/back_downloader"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dimen_38sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1dp"
+        android:layout_above="@id/dialog_rl_negative"
+        android:layout_marginBottom="@dimen/dimen_022dp"
+        android:layout_marginEnd="@dimen/dimen_20dp"
+        android:layout_marginStart="@dimen/dimen_20dp"
+        android:background="@color/white_40" />
+
+</RelativeLayout>

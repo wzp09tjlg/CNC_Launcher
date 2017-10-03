@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="detail_rls">           <!--影视详情页-->
+        <item>@id/rl_play</item>
+        <item>@id/rl_collect</item>
+        <item>@id/rl_gather</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_200dp"
+    android:layout_height="@dimen/dimen_80dp"
+    >
+
+    <TextView
+        android:id="@+id/address_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="New Text"
+        android:textColor="#f0f0f0"
+        android:textSize="@dimen/dimen_40sp" />
+</RelativeLayout>

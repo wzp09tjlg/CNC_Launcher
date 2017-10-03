@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_188dp"
+        android:background="@drawable/media_controller_bg_top"
+        >
+        <TextView
+            android:id="@+id/video_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_35sp"
+            android:textColor="@color/white_100"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/dimen_54dp"
+            android:layout_marginStart="@dimen/dimen_96dp" />
+
+        <TextView
+            android:id="@+id/controller_currentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dimen_62dp"
+            android:layout_marginRight="@dimen/dimen_102dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/media_controller_bg"
+        android:gravity="bottom"
+        android:id="@+id/bg">
+        <TextView
+            android:id="@+id/video_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_18dp"
+            android:textSize="@dimen/dimen_36sp"
+            android:layout_marginStart="@dimen/dimen_96dp"
+            android:visibility="gone"
+            />
+        <!--菜单提示-->
+        <RelativeLayout
+            android:id="@+id/video_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dimen_150dp"
+            android:layout_marginTop="@dimen/dimen_030dp"
+            >
+            <TextView
+                android:id="@+id/video_tips_before"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimen_28sp"
+                 />
+            <ImageView
+                android:id="@+id/icon_menu"
+                android:layout_toEndOf="@+id/video_tips_before"
+                android:layout_width="@dimen/dimen_50dp"
+                android:layout_height="@dimen/dimen_26dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu" />
+            <TextView
+                android:id="@+id/video_tips_after"
+                android:layout_toEndOf="@+id/icon_menu"
+                android:textSize="@dimen/dimen_28sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/video_tips_after" />
+        </RelativeLayout>
+        <!-- 菜单提示结束 -->
+        <LinearLayout
+            android:layout_below="@+id/video_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_50dp"
+            android:layout_marginStart="@dimen/dimen_96dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/player_state"
+                android:layout_width="@dimen/dimen_70dp"
+                android:layout_height="@dimen/dimen_70dp"
+                android:src="@drawable/player_state_level"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
+                android:layout_marginRight="@dimen/dimen_15dp"
+                 />
+
+            <TextView
+                android:id="@+id/time_current"
+                android:textSize="@dimen/dimen_32sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/videoplayer_split"
+                 />
+
+            <TextView
+                android:id="@+id/time"
+                android:textSize="@dimen/dimen_32sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white_50"
+               />
+            <cn.cncgroup.tv.cncplayer.widget.MySeekBar
+                style="@style/VideoSeekBarMyStyle"
+                android:id="@+id/mp_progress"
+                android:layout_width="@dimen/dimen_1338dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen_50dp"
+                android:paddingEnd="@dimen/dimen_50dp"
+                android:indeterminate="false"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

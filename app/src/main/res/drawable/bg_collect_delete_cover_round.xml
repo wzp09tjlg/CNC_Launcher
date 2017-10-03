@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 填充颜色-->
+    <solid android:color="#bb000000"/>
+    <corners android:radius="@dimen/dimen_8dp" />
+    <!-- 线的宽度 -->
+    <!-- 矩形的圆角半径 -->
+    <!--<corners android:radius="4dp"/>-->
+
+</shape>

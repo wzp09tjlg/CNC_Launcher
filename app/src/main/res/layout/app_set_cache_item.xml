@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_appset_item"
+    android:layout_width="@dimen/dimen_360dp"
+    android:layout_height="@dimen/dimen_340dp"
+    android:focusable="true"
+    android:padding="@dimen/dimen_7dp"
+    android:duplicateParentState="true">
+
+    <RelativeLayout
+        android:duplicateParentState="true"
+        android:id="@+id/rl_icon_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_app_stick">
+
+
+        <RelativeLayout
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/dwv_appset_icon"
+                android:layout_width="@dimen/dimen_160dp"
+                android:layout_height="@dimen/dimen_160dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_app_stick"
+                android:gravity="center"
+                app:roundedCornerRadius="@dimen/dimen_40dp" />
+
+            <cn.cncgroup.tv.ui.widget.MarqueeTextView
+                android:ellipsize="end"
+                android:id="@+id/tv_appset_iconname"
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dwv_appset_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginEnd="@dimen/dimen_20dp"
+                android:layout_marginStart="@dimen/dimen_20dp"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textSize="@dimen/dimen_40sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/rl_focus_msg_cache"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_appset_transparent_cover">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_cache_cachesize"
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:textSize="@dimen/dimen_40sp" />
+
+            <TextView
+                android:id="@+id/tv_cache_codesize"
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_cache_cachesize"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:singleLine="true"
+                android:textSize="@dimen/dimen_32sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_cache_codesize"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:background="@drawable/app_set_cleancache" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

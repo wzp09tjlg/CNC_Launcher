@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!--播放+播控-->
+    <cn.cncgroup.tv.cncplayer.controller.VideoPlayerView
+        android:id="@+id/base_connectroll_VideoPlayerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <cn.cncgroup.tv.cncplayer.widget.NetSpeedWidget
+        android:id="@+id/netspeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/defition_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_600dp"
+        android:lineSpacingExtra="@dimen/dimen_18dp"
+        android:text="@string/defition_tips"
+        android:textSize="@dimen/dimen_30sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/continue_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_600dp"
+        android:lineSpacingExtra="@dimen/dimen_18dp"
+        android:text="@string/continueplay_tips"
+        android:textSize="@dimen/dimen_30sp"
+        android:visibility="gone" />
+    <!--    选集+一句话提示+分辨率-->
+    <cn.cncgroup.tv.cncplayer.widget.VideoSelecterPannel
+        android:id="@+id/base_connectroll_BottomPannelView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone" />
+
+    <cn.cncgroup.tv.cncplayer.widget.QuickAccessPannel
+        android:id="@+id/quick_access_pannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</FrameLayout>

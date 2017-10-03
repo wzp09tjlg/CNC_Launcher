@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--so beautoful  split line -->
+    <string name="definition_high">高清</string>
+    <string name="definition_720P">720P</string>
+    <string name="definition_1080P">1080P</string>
+    <string name="definition_4K">4K</string>
+    <string name="definition_720p_dolby">杜比720P</string>
+    <string name="definition_1080p_dolby">杜比1080P</string>
+    <string name="definition_4k_dolby">杜比4K</string>
+    <string name="definition_720p_h265">H.265 720P</string>
+    <string name="definition_1080p_h265">H.265 1080P</string>
+    <string name="definition_4k_h265">H.265 4K</string>
+    <string name="videoplayer_split">&#160;/&#160;</string>
+    <string name="video_tips_before">当前为{1},可按菜单"</string>
+    <string name="video_tips_after">"选择清晰度或集数</string>
+    <string name="continueplay_tips">正在续播，点击OK键重头开始播放</string>
+    <string name="defition_tips">正在切换清晰度</string>
+
+    <!--本地播放-->
+    <string name="video_scal">画面比例</string>
+    <string name="full_screen">全屏</string>
+    <string name="no_change">原始</string>
+    <string name="w16h9">16:9</string>
+    <string name="w4h3">4:3</string>
+    <string name="timed_text_title">字幕</string>
+    <string name="timed_text">字幕1</string>
+    <string name="close_timed">关闭字幕</string>
+    <string name="no_timed">无</string>
+</resources>

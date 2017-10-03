@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/view_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_386dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black_50" />
+
+    <View
+        android:id="@+id/horizon_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_88dp"
+        android:layout_marginTop="@dimen/dimen_694dp"
+        android:background="@color/black_50" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clipChildren="true">
+
+        <RelativeLayout
+            android:id="@+id/player_menu"
+            android:layout_width="@dimen/dimen_1710dp"
+            android:layout_height="@dimen/dimen_406dp"
+            android:layout_centerHorizontal="true"
+            android:clipChildren="false"
+            android:gravity="center_horizontal">
+
+            <cn.cncgroup.tv.cncplayer.widget.selectview.SelectView
+                android:id="@+id/video_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:gravity="center_horizontal" />
+
+            <FrameLayout
+                android:id="@+id/player_rl_resolution"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_below="@+id/video_select"
+                android:layout_marginTop="@dimen/dimen_70dp"
+                android:duplicateParentState="true"
+                android:orientation="horizontal">
+
+                <cn.cncgroup.tv.ui.widget.gridview.HorizontalGridView
+                    android:id="@+id/palyer_gridView_defition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:descendantFocusability="afterDescendants"
+                    android:duplicateParentState="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    app:focusOutEnd="true"
+                    app:focusOutFront="true" />
+                <cn.cncgroup.tv.ui.widget.ShadowView
+                    android:id="@+id/shadow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/home_title_focus"
+                    android:visibility="invisible" />
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myapp_rl_grid_item"
+    android:layout_width="@dimen/dimen_330dp"
+    android:layout_height="@dimen/dimen_330dp"
+    android:background="@drawable/home_title_focus_select"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_marginEnd="@dimen/dimen_30dp"
+        android:layout_marginStart="@dimen/dimen_30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_open_history"
+            android:layout_width="@dimen/dimen_160dp"
+            android:layout_height="@dimen/dimen_160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/dimen_15dp"
+            android:background="@drawable/app_stick1"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_open_history"
+            style="@style/TextShadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ellipsize="end"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:text="啦啦啦"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_30sp" />
+    </LinearLayout>
+
+</RelativeLayout>

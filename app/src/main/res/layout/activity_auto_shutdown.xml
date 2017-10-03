@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/shutdown_img_back"
+        android:layout_width="@dimen/dimen_26dp"
+        android:layout_height="@dimen/dimen_46dp"
+        android:layout_marginLeft="@dimen/dimen_82dp"
+        android:layout_marginTop="@dimen/dimen_70dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_arrow" />
+
+    <TextView
+        android:id="@+id/shutdown_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_24dp"
+        android:layout_marginTop="@dimen/dimen_54dp"
+        android:layout_toRightOf="@+id/shutdown_img_back"
+        android:text="@string/autoShutdown"
+        android:textSize="@dimen/dimen_54sp" />
+
+    <View
+        android:id="@+id/shutdown_img_line"
+        android:layout_width="@dimen/dimen_1728dp"
+        android:layout_height="@dimen/dimen_1dp"
+        android:layout_marginLeft="@dimen/dimen_96dp"
+        android:layout_marginTop="@dimen/dimen_140dp"
+        android:background="#1bffffff" />
+
+    <View
+        android:id="@+id/shutdown_view"
+        android:layout_width="@dimen/dimen_380dp"
+        android:layout_height="@dimen/dimen_800dp"
+        android:layout_marginLeft="@dimen/dimen_85dp"
+        android:layout_marginTop="@dimen/dimen_206dp"
+        android:background="@color/white_10" />
+
+    <cn.cncgroup.tv.ui.widget.gridview.VerticalGridView
+        android:id="@+id/shutdown_grid_menu"
+        android:layout_width="@dimen/dimen_380dp"
+        android:layout_height="@dimen/dimen_800dp"
+        android:layout_marginLeft="@dimen/dimen_85dp"
+        android:layout_marginTop="@dimen/dimen_206dp"
+        android:scrollbars="none" />
+
+    <FrameLayout
+        android:id="@+id/shutdown_contain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/shutdown_img_line"
+        android:layout_toRightOf="@+id/shutdown_view"></FrameLayout>
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shutdown_cover"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+</RelativeLayout>

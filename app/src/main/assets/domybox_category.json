@@ -1,0 +1,547 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "电影",
+      "data": [
+        {
+          "id": 129,
+          "name": "全部",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetList/1/36/1/1.0.json"
+        },
+        {
+          "id": 142,
+          "name": "奇幻",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/142/36/1/1.0.json"
+        },
+        {
+          "id": 143,
+          "name": "魔幻",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/143/36/1/1.0.json"
+        },
+        {
+          "id": 144,
+          "name": "战争",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/144/36/1/1.0.json"
+        },
+        {
+          "id": 145,
+          "name": "武侠",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/145/36/1/1.0.json"
+        },
+        {
+          "id": 146,
+          "name": "青春",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/146/36/1/1.0.json"
+        },
+        {
+          "id": 147,
+          "name": "功夫",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/147/36/1/1.0.json"
+        },
+        {
+          "id": 148,
+          "name": "灾难",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/148/36/1/1.0.json"
+        },
+        {
+          "id": 149,
+          "name": "粉丝电影",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/149/36/1/1.0.json"
+        },
+        {
+          "id": 150,
+          "name": "粤语",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/150/36/1/1.0.json"
+        },
+        {
+          "id": 141,
+          "name": "家庭",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/141/36/1/1.0.json"
+        },
+        {
+          "id": 140,
+          "name": "悬疑",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/140/36/1/1.0.json"
+        },
+        {
+          "id": 139,
+          "name": "惊悚",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/139/36/1/1.0.json"
+        },
+        {
+          "id": 130,
+          "name": "喜剧",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/130/36/1/1.0.json"
+        },
+        {
+          "id": 131,
+          "name": "动作",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/131/36/1/1.0.json"
+        },
+        {
+          "id": 132,
+          "name": "爱情",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/132/36/1/1.0.json"
+        },
+        {
+          "id": 133,
+          "name": "悲剧",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/133/36/1/1.0.json"
+        },
+        {
+          "id": 134,
+          "name": "科幻",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/134/36/1/1.0.json"
+        },
+        {
+          "id": 135,
+          "name": "动画",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/135/36/1/1.0.json"
+        },
+        {
+          "id": 136,
+          "name": "恐怖",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/136/36/1/1.0.json"
+        },
+        {
+          "id": 137,
+          "name": "枪战",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/137/36/1/1.0.json"
+        },
+        {
+          "id": 138,
+          "name": "犯罪",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/138/36/1/1.0.json"
+        },
+        {
+          "id": 151,
+          "name": "原声",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/1/151/36/1/1.0.json"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "电视剧",
+      "data": [
+        {
+          "id": 3,
+          "name": "全部",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetList/2/36/1/1.0.json"
+        },
+        {
+          "id": 4,
+          "name": "内地",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/2/4/36/1/1.0.json"
+        },
+        {
+          "id": 5,
+          "name": "韩国",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/2/5/36/1/1.0.json"
+        },
+        {
+          "id": 6,
+          "name": "香港",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/2/6/36/1/1.0.json"
+        },
+        {
+          "id": 7,
+          "name": "日本",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/2/7/36/1/1.0.json"
+        },
+        {
+          "id": 8,
+          "name": "台湾",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/2/8/36/1/1.0.json"
+        },
+        {
+          "id": 9,
+          "name": "泰国",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/2/9/36/1/1.0.json"
+        },
+        {
+          "id": 10,
+          "name": "其它",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/2/10/36/1/1.0.json"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "综艺",
+      "data": [
+        {
+          "id": 162,
+          "name": "全部",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetList/6/36/1/1.0.json"
+        },
+        {
+          "id": 163,
+          "name": "内地",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/6/163/36/1/1.0.json"
+        },
+        {
+          "id": 164,
+          "name": "港台",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/6/164/36/1/1.0.json"
+        },
+        {
+          "id": 165,
+          "name": "日韩",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/6/165/36/1/1.0.json"
+        },
+        {
+          "id": 166,
+          "name": "欧美",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/6/166/36/1/1.0.json"
+        },
+        {
+          "id": 167,
+          "name": "其它",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/6/167/36/1/1.0.json"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "动漫",
+      "data": [
+        {
+          "id": 53,
+          "name": "全部",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetList/4/36/1/1.0.json"
+        },
+        {
+          "id": 72,
+          "name": "耽美",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/72/36/1/1.0.json"
+        },
+        {
+          "id": 73,
+          "name": "热血",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/73/36/1/1.0.json"
+        },
+        {
+          "id": 74,
+          "name": "机战",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/74/36/1/1.0.json"
+        },
+        {
+          "id": 75,
+          "name": "战争",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/75/36/1/1.0.json"
+        },
+        {
+          "id": 76,
+          "name": "古代",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/76/36/1/1.0.json"
+        },
+        {
+          "id": 77,
+          "name": "未来",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/77/36/1/1.0.json"
+        },
+        {
+          "id": 78,
+          "name": "侦探",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/78/36/1/1.0.json"
+        },
+        {
+          "id": 79,
+          "name": "冒险",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/79/36/1/1.0.json"
+        },
+        {
+          "id": 80,
+          "name": "竞技",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/80/36/1/1.0.json"
+        },
+        {
+          "id": 81,
+          "name": "体育",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/81/36/1/1.0.json"
+        },
+        {
+          "id": 82,
+          "name": "搞笑",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/82/36/1/1.0.json"
+        },
+        {
+          "id": 83,
+          "name": "言情",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/83/36/1/1.0.json"
+        },
+        {
+          "id": 84,
+          "name": "校园",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/84/36/1/1.0.json"
+        },
+        {
+          "id": 85,
+          "name": "都市",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/85/36/1/1.0.json"
+        },
+        {
+          "id": 86,
+          "name": "魔幻",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/86/36/1/1.0.json"
+        },
+        {
+          "id": 87,
+          "name": "科幻",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/87/36/1/1.0.json"
+        },
+        {
+          "id": 71,
+          "name": "剧情",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/71/36/1/1.0.json"
+        },
+        {
+          "id": 70,
+          "name": "悬疑",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/70/36/1/1.0.json"
+        },
+        {
+          "id": 54,
+          "name": "动作",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/54/36/1/1.0.json"
+        },
+        {
+          "id": 55,
+          "name": "宠物",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/55/36/1/1.0.json"
+        },
+        {
+          "id": 56,
+          "name": "励志",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/56/36/1/1.0.json"
+        },
+        {
+          "id": 57,
+          "name": "益智",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/57/36/1/1.0.json"
+        },
+        {
+          "id": 58,
+          "name": "童话",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/58/36/1/1.0.json"
+        },
+        {
+          "id": 59,
+          "name": "真人",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/59/36/1/1.0.json"
+        },
+        {
+          "id": 60,
+          "name": "神话",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/60/36/1/1.0.json"
+        },
+        {
+          "id": 61,
+          "name": "青春",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/61/36/1/1.0.json"
+        },
+        {
+          "id": 62,
+          "name": "亲子",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/62/36/1/1.0.json"
+        },
+        {
+          "id": 63,
+          "name": "原创",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/63/36/1/1.0.json"
+        },
+        {
+          "id": 64,
+          "name": "传媒大学作品",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/64/36/1/1.0.json"
+        },
+        {
+          "id": 65,
+          "name": "电影学院作品",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/65/36/1/1.0.json"
+        },
+        {
+          "id": 66,
+          "name": "动画电影",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/66/36/1/1.0.json"
+        },
+        {
+          "id": 67,
+          "name": "教育",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/67/36/1/1.0.json"
+        },
+        {
+          "id": 68,
+          "name": "怀旧",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/68/36/1/1.0.json"
+        },
+        {
+          "id": 69,
+          "name": "同人",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/69/36/1/1.0.json"
+        },
+        {
+          "id": 88,
+          "name": "短片",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/4/88/36/1/1.0.json"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "少儿",
+      "data": [
+        {
+          "id": 105,
+          "name": "全部",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetList/15/36/1/1.0.json"
+        },
+        {
+          "id": 106,
+          "name": "动画",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/15/106/36/1/1.0.json"
+        },
+        {
+          "id": 107,
+          "name": "少儿综艺",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/15/107/36/1/1.0.json"
+        },
+        {
+          "id": 108,
+          "name": "益智早教",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/15/108/36/1/1.0.json"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "音乐",
+      "data": [
+        {
+          "id": 254,
+          "name": "全部",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetList/5/36/1/1.0.json"
+        },
+        {
+          "id": 268,
+          "name": "清新",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/268/36/1/1.0.json"
+        },
+        {
+          "id": 267,
+          "name": "情歌金曲",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/267/36/1/1.0.json"
+        },
+        {
+          "id": 266,
+          "name": "轻音乐",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/266/36/1/1.0.json"
+        },
+        {
+          "id": 265,
+          "name": "Hi舞曲",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/265/36/1/1.0.json"
+        },
+        {
+          "id": 264,
+          "name": "影视原声",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/264/36/1/1.0.json"
+        },
+        {
+          "id": 263,
+          "name": "汽车音乐",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/263/36/1/1.0.json"
+        },
+        {
+          "id": 262,
+          "name": "儿童歌曲",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/262/36/1/1.0.json"
+        },
+        {
+          "id": 261,
+          "name": "宗教音乐",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/261/36/1/1.0.json"
+        },
+        {
+          "id": 260,
+          "name": "革命军旅",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/260/36/1/1.0.json"
+        },
+        {
+          "id": 259,
+          "name": "节日歌曲",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/259/36/1/1.0.json"
+        },
+        {
+          "id": 258,
+          "name": "性感",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/258/36/1/1.0.json"
+        },
+        {
+          "id": 257,
+          "name": "剧情",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/257/36/1/1.0.json"
+        },
+        {
+          "id": 256,
+          "name": "创意",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/256/36/1/1.0.json"
+        },
+        {
+          "id": 255,
+          "name": "怀旧老歌",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/255/36/1/1.0.json"
+        },
+        {
+          "id": 269,
+          "name": "翻唱",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/5/269/36/1/1.0.json"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "纪录片",
+      "data": [
+        {
+          "id": 274,
+          "name": "全部",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetList/3/36/1/1.0.json"
+        },
+        {
+          "id": 275,
+          "name": "军事",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/3/275/36/1/1.0.json"
+        },
+        {
+          "id": 276,
+          "name": "历史",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/3/276/36/1/1.0.json"
+        },
+        {
+          "id": 277,
+          "name": "人物",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/3/277/36/1/1.0.json"
+        },
+        {
+          "id": 278,
+          "name": "探索",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/3/278/36/1/1.0.json"
+        },
+        {
+          "id": 279,
+          "name": "文化",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/3/279/36/1/1.0.json"
+        },
+        {
+          "id": 280,
+          "name": "社会",
+          "contentUrl": "http://api.newapi.pthv.gitv.tv/api/open/video/VideoSetListByTag/3/280/36/1/1.0.json"
+        }
+      ]
+    }
+  ],
+  "count": 7
+}

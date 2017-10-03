@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/version_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_44sp" />
+
+        <TextView
+            android:id="@+id/version_data_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen_20dp"
+            android:textSize="@dimen/dimen_40sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lmmediate_update_textview"
+        android:layout_width="@dimen/dimen_230dp"
+        android:layout_height="@dimen/dimen_70dp"
+        android:descendantFocusability="beforeDescendants"
+        android:nextFocusDown="@+id/lmmediate_update_textview"
+        android:nextFocusUp="@+id/lmmediate_update_textview"
+        android:gravity="center"
+        android:text="立即更新"
+        android:background="@drawable/setting_background"
+        android:textSize="@dimen/dimen_42sp"
+        android:layout_below="@+id/desc_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_100dp" />
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+
+    <ScrollView
+        android:id="@+id/desc_container"
+        android:layout_width="@dimen/dimen_794dp"
+        android:layout_height="@dimen/dimen_290dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_102dp"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/update_content_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen_15dp"
+            android:paddingRight="@dimen/dimen_15dp"
+            android:textColor="@color/white_70"
+            android:lineSpacingExtra="@dimen/dimen_36dp"
+            android:textSize="@dimen/dimen_30sp" />
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/history_collect_header" />
+
+    <cn.cncgroup.tv.ui.widget.gridview.VerticalGridView
+        android:id="@+id/history_main_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/include"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_90dp"
+        android:layout_marginStart="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_30dp"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="@dimen/dimen_12dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical"
+        android:scrollbarTrackVertical="@drawable/scrollbar_track_vertical"
+        android:scrollbars="vertical"
+        app:focusOutFront="true"
+        app:verticalMargin="@dimen/dimen_30dp" />
+
+    <ImageView
+        android:id="@+id/iv_history_empty"
+        android:layout_width="@dimen/dimen_900dp"
+        android:layout_height="@dimen/dimen_400dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/dimen_90dp"
+        android:layout_marginEnd="@dimen/dimen_90dp"
+        android:layout_marginStart="@dimen/dimen_90dp"
+        android:layout_marginTop="@dimen/dimen_200dp"
+        android:background="@drawable/footmark_data_empty"
+        android:visibility="gone" />
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus" />
+</RelativeLayout>

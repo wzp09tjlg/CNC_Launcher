@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/dimen_524dp"
+    android:layout_height="@dimen/dimen_342dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_283dp"
+        fresco:actualImageScaleType="centerCrop"
+        fresco:placeholderImage="@drawable/default_video_postbg"
+        fresco:placeholderImageScaleType="fitXY"
+        fresco:roundedCornerRadius="@dimen/dimen_10dp" />
+
+    <cn.cncgroup.tv.ui.widget.MarqueeTextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_70dp"
+        android:layout_alignBottom="@id/image"
+        android:background="@drawable/item_video_list_img2_shape"
+        android:duplicateParentState="true"
+        android:gravity="center|center_vertical"
+        android:textColor="@color/item_video_list_text_selector"
+        android:textSize="@dimen/dimen_30sp" />
+
+    <cn.cncgroup.tv.ui.widget.MarqueeTextView
+        android:id="@+id/name"
+        android:layout_width="@dimen/dimen_350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/image"
+        android:layout_below="@id/image"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:gravity="center"
+        android:textColor="@color/item_video_list_menu_text_selector"
+        android:textSize="@dimen/dimen_30sp" />
+
+    <TextView
+        android:id="@+id/periods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/name"
+        android:layout_alignEnd="@id/image"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:gravity="center_vertical|right"
+        android:textColor="@color/white_40"
+        android:textSize="@dimen/dimen_30sp" />
+</RelativeLayout>

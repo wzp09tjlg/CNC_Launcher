@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape>
+            <gradient android:centerColor="#4dffffff" android:endColor="#01ffffff" android:startColor="#01ffffff" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <!--未获取焦点 不处理-->
+        </shape>
+    </item>
+</selector>

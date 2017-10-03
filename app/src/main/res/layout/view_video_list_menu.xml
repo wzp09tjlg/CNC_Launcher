@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/video_list_menu_search"
+        android:layout_width="@dimen/dimen_260dp"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_marginLeft="@dimen/dimen_60dp"
+        android:layout_marginTop="@dimen/dimen_62dp"
+        android:background="@drawable/film_search_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/video_list_menu_select"
+        android:nextFocusUp="@+id/video_list_menu_search"
+        android:paddingStart="@dimen/dimen_50dp"
+        android:paddingTop="@dimen/dimen_10dp">
+
+        <ImageView
+            android:id="@+id/video_list_menu_img_search"
+            android:layout_width="@dimen/dimen_41dp"
+            android:layout_height="@dimen/dimen_41dp"
+            android:duplicateParentState="true"
+            android:src="@drawable/film_search_img_selector" />
+
+        <TextView
+            style="@style/TextShadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_39dp"
+            android:layout_toEndOf="@id/video_list_menu_img_search"
+            android:duplicateParentState="true"
+            android:text="@string/film_search"
+            android:textColor="@color/film_select_rl_selector"
+            android:textSize="@dimen/dimen_34sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/video_list_menu_select"
+        android:layout_width="@dimen/dimen_260dp"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_below="@id/video_list_menu_search"
+        android:layout_marginLeft="@dimen/dimen_60dp"
+        android:layout_marginTop="@dimen/dimen_30dp"
+        android:background="@drawable/film_select_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/video_list_menu_grid"
+        android:nextFocusUp="@id/video_list_menu_search"
+        android:paddingStart="@dimen/dimen_50dp"
+        android:paddingTop="@dimen/dimen_13dp">
+
+        <ImageView
+            android:id="@+id/video_list_menu_img_select"
+            android:layout_width="@dimen/dimen_40dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:duplicateParentState="true"
+            android:src="@drawable/film_select_img_selector" />
+
+        <TextView
+            style="@style/TextShadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_39dp"
+            android:layout_toEndOf="@id/video_list_menu_img_select"
+            android:duplicateParentState="true"
+            android:text="@string/film_select"
+            android:textColor="@color/film_select_rl_selector"
+            android:textSize="@dimen/dimen_34sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/video_list_img_left_split"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1dp"
+        android:layout_marginTop="@dimen/dimen_228dp"
+        android:background="@drawable/icon_top_line" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video_list_img_left_split"
+        android:layout_marginBottom="@dimen/dimen_22dp"
+        android:layout_marginTop="@dimen/dimen_76dp">
+
+        <View
+            android:id="@+id/nothing_toshow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_100dp" />
+
+        <cn.cncgroup.tv.ui.widget.gridview.VerticalGridView
+            android:id="@+id/video_list_menu_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:nextFocusDown="@id/video_list_menu_grid"
+            android:nextFocusUp="@id/video_list_menu_select"
+            app:focusOutEnd="true"
+            app:focusOutFront="true" />
+    </LinearLayout>
+
+
+</RelativeLayout>

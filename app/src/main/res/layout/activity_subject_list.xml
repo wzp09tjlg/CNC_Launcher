@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="@dimen/dimen_10dp"
+        android:layout_height="@dimen/dimen_72dp"
+        android:layout_marginLeft="@dimen/dimen_96dp"
+        android:layout_marginTop="@dimen/dimen_56dp"
+        android:background="#ffc000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_120dp"
+        android:layout_marginTop="@dimen/dimen_56dp"
+        android:gravity="center"
+        android:text="@string/subject"
+        android:textSize="@dimen/dimen_56sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_180dp">
+
+        <cn.cncgroup.tv.ui.widget.CustomScrollVerticalGridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dimen_96dp"
+            android:layout_marginLeft="@dimen/dimen_96dp"
+            android:layout_marginRight="@dimen/dimen_56dp"
+            android:layout_marginTop="25px"
+            android:fadeScrollbars="false"
+            android:scrollbarSize="@dimen/dimen_12dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical"
+            android:scrollbarTrackVertical="@drawable/scrollbar_track_vertical"
+            android:scrollbars="vertical"
+            app:columnWidth="@dimen/dimen_524dp"
+            app:horizontalMargin="@dimen/dimen_50dp"
+            app:numberOfColumns="3"
+            app:verticalMargin="@dimen/dimen_80dp" />
+
+        <cn.cncgroup.tv.ui.widget.ShadowView
+            android:id="@+id/shadow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/home_title_focus"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</RelativeLayout>

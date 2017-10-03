@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.cncgroup.tv.ui.widget.MarqueeTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen_5dp"
+    android:layout_marginRight="@dimen/dimen_5dp"
+    android:background="@drawable/desc_bubbles"
+    android:gravity="center"
+    android:textColor="@android:color/white"
+    android:textIsSelectable="true"
+    android:textSize="@dimen/dimen_30sp" />

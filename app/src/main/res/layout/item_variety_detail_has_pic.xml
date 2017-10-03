@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detail_item_rl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_variety_detail_img_selector"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="30px">
+
+    <View
+        android:layout_width="@dimen/dimen_840dp"
+        android:layout_height="@dimen/dimen_166dp"
+        android:background="@drawable/item_variety_detail_selector"
+        android:duplicateParentState="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/detail_item_image"
+        android:layout_width="@dimen/dimen_256dp"
+        android:layout_height="@dimen/dimen_144dp"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:layout_marginLeft="@dimen/dimen_14dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:placeholderImage="@drawable/default_video_postbg"
+        fresco:placeholderImageScaleType="fitXY"
+        fresco:roundedCornerRadius="@dimen/dimen_10dp" />
+
+    <cn.cncgroup.tv.ui.widget.MarqueeTextView
+        android:id="@+id/detail_item_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_44dp"
+        android:layout_marginRight="@dimen/dimen_40dp"
+        android:layout_marginTop="@dimen/dimen_26dp"
+        android:layout_toRightOf="@+id/detail_item_image"
+        android:duplicateParentState="true"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="@color/details_text_bg"
+        android:textSize="@dimen/dimen_28sp" />
+
+    <TextView
+        android:id="@+id/detail_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/detail_item_desc"
+        android:layout_below="@id/detail_item_desc"
+        android:layout_marginTop="@dimen/dimen_15dp"
+        android:singleLine="true"
+        android:textColor="@color/detail_info_textolor"
+        android:textSize="@dimen/dimen_25sp" />
+</RelativeLayout>

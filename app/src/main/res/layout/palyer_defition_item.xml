@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_defination_1080P"
+        android:layout_width="@dimen/dimen_270dp"
+        android:layout_height="@dimen/dimen_70dp"
+        android:background="@drawable/resolution_background"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:id="@+id/defition_item_tv_defition"
+            android:layout_width="@dimen/dimen_270dp"
+            android:layout_height="@dimen/dimen_70dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="1280P"
+            android:duplicateParentState="true"
+            android:textSize="@dimen/dimen_42sp"
+            android:textColor="@color/video_definition_text"
+            />
+    </FrameLayout>

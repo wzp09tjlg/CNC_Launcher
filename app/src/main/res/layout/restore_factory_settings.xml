@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_806dp"
+    android:layout_height="@dimen/dimen_206dp"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="@dimen/dimen_230dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="此操作将清除您所有应用与数据并还原所有设置"
+        android:textColor="#f0f0f0"
+        android:textSize="@dimen/dimen_36sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_102dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/cancel_textview"
+            android:layout_width="@dimen/dimen_200dp"
+            android:layout_height="@dimen/dimen_70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:focusable="true"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:text="取消"
+            android:background="@drawable/setting_background"
+            android:textColor="@drawable/restort_setting_select"
+            android:textSize="@dimen/dimen_36sp" />
+
+        <TextView
+            android:id="@+id/continue_textview"
+            android:layout_width="@dimen/dimen_200dp"
+            android:layout_height="@dimen/dimen_70dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/dimen_80dp"
+            android:layout_toEndOf="@+id/cancel_textview"
+            android:focusable="true"
+            android:background="@drawable/setting_background"
+            android:textColor="@drawable/restort_setting_select"
+            android:gravity="center"
+            android:text="继续"
+
+            android:textSize="@dimen/dimen_36sp" />
+    </RelativeLayout>
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+</RelativeLayout>

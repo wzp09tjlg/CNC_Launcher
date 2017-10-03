@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/dimen_228dp"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <RelativeLayout
+        android:id="@+id/video_list_rl_icon"
+        android:layout_width="@dimen/dimen_228dp"
+        android:layout_height="@dimen/dimen_316dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/home_title_focus_select"
+        android:duplicateParentState="true">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_footmark_icon"
+            android:layout_width="@dimen/dimen_228dp"
+            android:layout_height="@dimen/dimen_316dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:duplicateParentState="true"
+            fresco:actualImageScaleType="centerCrop"
+            fresco:placeholderImage="@drawable/default_video_postbg"
+            fresco:placeholderImageScaleType="fitXY"
+            fresco:roundedCornerRadius="@dimen/dimen_8dp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_delete"
+            android:layout_width="@dimen/dimen_228dp"
+            android:layout_height="@dimen/dimen_316dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_collect_delete_cover_round"
+            android:duplicateParentState="true"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:longClickable="false"
+                android:src="@drawable/app_set_unload" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/dimen_228dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video_list_rl_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:duplicateParentState="true">
+
+        <cn.cncgroup.tv.ui.widget.MarqueeTextView
+            android:id="@+id/tv_footmark_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/dimen_30dp"
+            android:layout_marginStart="@dimen/dimen_30dp"
+            android:singleLine="true"
+            android:text="名字大小"
+            android:textSize="@dimen/dimen_30sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

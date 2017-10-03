@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\workspace3\dev\trunk\app\libs\activeandroid-3.1-beta.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="60a522113b5b4beca6696530394e411705988e92">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\activeandroid-3.1-beta-3ee73f1eb8bd0e7804bb6bf4910f78ed0dee6b09.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\classes-16a73484617980259c5b46549a9d8c97cb566921.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\libs\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\simple-xml-2.7.1-aa9d4846c76605b84913536ca758af5e0dcb9bbc.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2bd08e2187860adf49dffd1ab6d5ab722e47cc73">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\classes-4567dc3f8e48a8160edcb975b885df5b2355fdf9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Walter\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.3.1\6904771474c058abfc5912c13d12b02754712165\leakcanary-watcher-1.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6904771474c058abfc5912c13d12b02754712165">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\leakcanary-watcher-1.3.1-61bbbe9ff8ce36c8bc9a5bbd11c6c69461576197.jar" />
+    </item>
+    <item
+        jar="C:\Users\Walter\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.3.0\2e7bc7033dc2c8423e661224171b3133fb155b28\okhttp-2.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\okhttp-2.3.0-db6d784b3257d496d272cf4ca892f4ad14c51881.jar" />
+    </item>
+    <item
+        jar="C:\Users\Walter\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\bolts-android-1.1.4-c3deb5b15dd73b392d1e8b11a3222909aa671c91.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android-no-op\1.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f12b73a85d00136c8180f7763334beb9cb3f4d49">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\release\classes-d7c6afbd94598f32a93790ca8dd6b7258f773829.jar" />
+    </item>
+    <item
+        jar="C:\Users\Walter\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\eventbus-2.4.0-7fa66fde40b3ec7ea4b24563ef561f0c9b4d6d41.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\libs\tvapi-r29134.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b9e2a8114470c1bce9e4c3653d36ec481c8b6b66">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\tvapi-r29134-f10a4ed2865763f3272ab936d6f6fa1b984e5e2e.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\classes-9ab658feb3ca468463ee9d0680fb7b4059136fd2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Walter\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\library-2.4.0-d6c1c29f3ecc1787aa1184de39440fa995aaecfa.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\libs\universal-image-loader-1.8.6-with-sources.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ad605dd55be2e74e614b2ab2ff466439c4461b7">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\universal-image-loader-1.8.6-with-sources-d5b1c49b0c2a70b0a46b4e876f830fa82562599d.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6b8949f96f34d0750b7fef9f93ef50ecae4899d3">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\classes-ccea5f0c3d3cc79aa847aa072a151ec1b6b4f45c.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="522e5e0b204e366bc5b9d5e427ca135c99e4710b">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\classes-2c1003939c30cf2da01613a12f6b24851ac4435a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Walter\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.3.0\1b355f73402020c5a0dcca58affc3ec3dfeabac1\okio-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\okio-1.3.0-da0972877af1e7def484d16d3351093f186efb81.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f0de0891b54ed8080132c696e0f9033c1bdb3509">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\classes-b16d1d2740811c76c5c53b52df9ef1818a5cc809.jar" />
+    </item>
+    <item
+        jar="C:\Users\Walter\.gradle\caches\modules-2\files-2.1\com.squareup.haha\haha\1.3\d2c832f9d14a11c79f58a7ee2e10526a12152c72\haha-1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d2c832f9d14a11c79f58a7ee2e10526a12152c72">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\haha-1.3-0b2733e3cc94a60dc5ef1640cd6816778a9d53b7.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\libs\apiengine-r24200.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="12ea9bbff15bf75c64c67cc1794389d1670945dc">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\apiengine-r24200-4cafc7ed82c20d86ed6e46cdefe4c70011093aa9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Walter\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.3.1\325e7401a7ea16918eb39ba8baad8fd5561a55d3\leakcanary-analyzer-1.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="325e7401a7ea16918eb39ba8baad8fd5561a55d3">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\leakcanary-analyzer-1.3.1-42812f6ccfac6b69a0477c8f0ffe2b8269078feb.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\libs\android_api_3.7.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="565f14f694bae63e44fcfb342c8ccc10d5de2a28">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\android_api_3.7.1.1-90914a29bf60f448cd965953cb89036460e7d0e8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Walter\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\gson-2.3.1-6c9fe2221bfce894ab8df0898c72b6fb4e1f5e55.jar" />
+    </item>
+    <item
+        jar="C:\Users\Walter\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.5\9f675e9a1b2bf1224183005752a9214226e8aa8e\fastjson-1.2.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9f675e9a1b2bf1224183005752a9214226e8aa8e">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\fastjson-1.2.5-a752ed3f49bbce4b0a73ecb2ec2be739079245aa.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\classes-f68c28511fcc8bc255baf2e60cdd995aabb9e3e3.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\android-async-http-1.4.6-cab13fdf74a1f7c99b83ab6f9676b0200f4d38ab.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\internal_impl-22.1.1-1d7c818c62f09204bdca1eb95c887b27bf2fb157.jar" />
+    </item>
+    <item
+        jar="D:\Program Files\Android SDK\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\support-annotations-22.1.1-f78bc3b237050d330a495d1f926c822a96a6cd04.jar" />
+    </item>
+    <item
+        jar="D:\workspace3\dev\trunk\app\libs\QiyiTvDevSdk-r28727.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68afbff6c5ca326c63bb2380a52d9f10f65fc488">
+        <dex dex="D:\workspace3\dev\trunk\app\build\intermediates\pre-dexed\channel\debug\QiyiTvDevSdk-r28727-32fe5edfe389d6cdf3e7aaabd62f0355ce166637.jar" />
+    </item>
+
+</items>

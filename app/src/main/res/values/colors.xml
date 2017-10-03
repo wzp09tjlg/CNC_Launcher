@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">@android:color/transparent</color>
+    <color name="transparent">#e6141c22</color>
+    <color name="white">#FFFFFF</color>
+    <!--推荐页-->
+    <color name="recommend_textColor">#FFFDFF</color>
+    <!--全部应用中右边圆点颜色-->
+    <color name="myapp_img_dot42">#66ffffff</color>
+
+    <!--关于我们-->
+    <color name="glass_bg">#2fffffff</color>
+    <color name="feedbak_btn">#1F7CDC</color>
+    <color name="feedback_item4">#ffac4c</color>
+    <!--详情页-->
+    <color name="detail_btn_bg">#FF7900</color>
+    <color name="detail_btn_bg_text">#FFb000</color>
+    <color name="detail_info_textolor">#CCCCCC</color>
+    <!--影视分类-->
+    <color name="film_text_focused">#ffa800</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="yellow_70">#b2FFC000</color>
+    <color name="white_smoke">#fff1f1f1</color>
+    <!--网络设置-->
+    <color name="transparent_background">#00ffffff</color>
+    <color name="white_100">#ffffffff</color>
+    <color name="white_90">#e6ffffff</color>
+    <color name="white_80">#ccffffff</color>
+    <color name="white_70">#b2ffffff</color>
+    <color name="white_60">#99ffffff</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="white_40">#66ffffff</color>
+    <color name="white_30">#4dffffff</color>
+    <color name="white_20">#33ffffff</color>
+    <color name="white_10">#1Affffff</color>
+    <color name="white_15">#26ffffff</color>
+    <color name="black_90">#e6000000</color>
+    <color name="black_80">#cc000000</color>
+    <color name="black_70">#b2000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_30">#4d000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_10">#1A000000</color>
+    <!-- 视频播放 -->
+    <color name="write_51000000">#51000000</color>
+    <color name="blue_4ba2c5">#4ba2c5</color>
+    <color name="select">#00A1E8</color>
+    <color name="blue_1cb6ff">#1cb6ff</color>
+    <color name="blue_a0e9">#00a0e9</color>
+    <color name="localmenu_yellow">#ffae00</color>
+    <color name="alerady_color_yellow">#ffca00</color>
+    <color name="localmenu_whrit">#f0f0f0</color>
+
+    <color name="category_subject">#B24c8815</color>
+    <color name="category_children">#B2de862e</color>
+    <color name="category_anim">#B2216aa6</color>
+    <color name="category_life">#B2519018</color>
+    <color name="category_music">#B25f3989</color>
+    <color name="category_3D">#B23274aa</color>
+    <color name="category_record">#B2444a59</color>
+    <!--设置页-->
+    <color name="textview_bright">#fff0f0f0</color>
+    <color name="textview_dark">#33f0f0f0</color>
+    <color name="background_color">#cc141c22</color>
+
+    <color name="item_background_color">#80141c22</color>
+
+    <color name="item_text_color">#80ffca00</color>
+
+    <color name="determine_choice_color">#ffffca00</color>
+    <color name="focus_choice_color">#fff0f0f0</color>
+    <color name="focus_nochoice_color">#66f0f0f0</color>
+    <color name="menu_indicator_color">#ffca00</color>
+    <color name="menu_general_color">#99f0f0f0</color>
+</resources>

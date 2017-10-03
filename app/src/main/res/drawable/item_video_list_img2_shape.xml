@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape>
+            <corners android:bottomLeftRadius="@dimen/dimen_10dp" android:bottomRightRadius="@dimen/dimen_10dp" />
+            <solid android:color="#b3ffc000" />
+        </shape>
+
+    </item>
+    <item android:state_focused="false">
+        <shape>
+            <solid android:color="@color/black_50" />
+            <corners android:bottomLeftRadius="@dimen/dimen_10dp" android:bottomRightRadius="@dimen/dimen_10dp" />
+        </shape>
+    </item>
+</selector>

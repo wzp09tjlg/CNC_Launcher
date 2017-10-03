@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+<!--<RelativeLayout
+        android:id="@+id/video_list_layout_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true">-->
+
+  <!--      <cn.cncgroup.tv.ui.widget.ItemGridViewHalo60
+            android:layout_width="@dimen/dimen_228dp"
+            android:layout_height="@dimen/dimen_320dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/item_video_list_selector"
+            android:duplicateParentState="true" />-->
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image"
+            android:layout_width="@dimen/dimen_228dp"
+            android:layout_height="@dimen/dimen_320dp"
+            fresco:actualImageScaleType="centerCrop"
+            fresco:placeholderImage="@drawable/default_video_postbg"
+            fresco:placeholderImageScaleType="fitXY"
+            fresco:roundedCornerRadius="10px" />
+<!--
+    </RelativeLayout>-->
+
+    <cn.cncgroup.tv.ui.widget.MarqueeTextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/dimen_200dp"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:duplicateParentState="true"
+        android:singleLine="true"
+        android:textSize="@dimen/dimen_30sp" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.cncgroup.tv.view.homesecond.widget.CoverFlowVertical
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_545dp"
+        android:layout_marginLeft="@dimen/dimen_96dp"
+        android:layout_marginRight="@dimen/dimen_96dp"
+        android:layout_marginTop="@dimen/dimen_25dp"
+        app:horizontalMargin="@dimen/dimen_088dp" />
+
+    <cn.cncgroup.tv.view.homesecond.widget.MovieRecyclerView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_277dp"
+        android:layout_marginTop="@dimen/dimen_520dp" />
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/coverflow_focuseview"
+        android:layout_width="@dimen/dimen_325dp"
+        android:layout_height="@dimen/dimen_445dp"
+        android:layout_alignTop="@+id/gallery"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

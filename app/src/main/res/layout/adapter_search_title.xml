@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_title_home"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:layout_gravity="center"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:focusableInTouchMode="true"
+    android:gravity="center">
+
+    <View
+        android:id="@+id/ll_title_home"
+        android:layout_width="@dimen/dimen_190dp"
+        android:layout_height="@dimen/dimen_85dp"
+        android:background="@drawable/home_title_select"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:textColor="@color/title_item_text_selector"
+        android:textSize="@dimen/dimen_32sp" />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_350dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/exit_player_bg">
+
+        <TextView
+            android:id="@+id/exit_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_28dp"
+            android:text="@string/exit_player_tips"
+            android:textColor="@color/blue_1cb6ff"
+            android:textSize="@dimen/dimen_30sp" />
+
+        <ImageView
+            android:id="@+id/split_line"
+            android:layout_width="@dimen/dimen_300dp"
+            android:layout_height="@dimen/dimen_1dp"
+            android:layout_below="@+id/exit_tips"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_12dp"
+            android:src="@drawable/exit_player_line" />
+
+        <cn.cncgroup.tv.ui.widget.gridview.VerticalGridView
+            android:id="@+id/recycler_quickaccess"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/split_line"
+            android:layout_marginStart="@dimen/dimen_265dp"
+            app:horizontalMargin="@dimen/dimen_060dp" />
+    </RelativeLayout>
+</RelativeLayout>

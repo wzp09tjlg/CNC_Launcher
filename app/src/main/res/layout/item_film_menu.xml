@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/film_item_selector"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/menu_item_name"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="@dimen/dimen_94dp"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/film_menu_item_text_selector"
+        android:textSize="@dimen/dimen_40sp" />
+
+    <View
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="@dimen/dimen_3dp"
+        android:background="@drawable/icon_film_item_split" />
+</LinearLayout>

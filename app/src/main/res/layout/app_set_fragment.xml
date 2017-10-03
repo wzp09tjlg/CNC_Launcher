@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.cncgroup.tv.ui.widget.gridview.VerticalGridView
+        android:id="@+id/gv_appset_appunload"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/dimen_30dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/dimen_50dp"
+        android:layout_marginStart="@dimen/dimen_30dp"
+        android:fadeScrollbars="false"
+        android:focusable="true"
+        android:paddingBottom="@dimen/dimen_75dp"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbVertical="@drawable/icon_film_scoller_bar"
+        android:scrollbars="vertical"
+        app:focusOutFront="true"
+        app:numberOfColumns="3"
+        app:verticalMargin="@dimen/dimen_15dp" />
+
+</RelativeLayout>

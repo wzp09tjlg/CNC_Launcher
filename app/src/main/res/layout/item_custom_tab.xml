@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_220dp"
+    android:layout_height="@dimen/dimen_180dp"
+    android:background="@drawable/bg_custom_tab_item"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/dimen_40sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:layout_gravity="top|right"
+        android:background="@drawable/bg_custom_tab_check"
+        android:src="@drawable/icon_custom_tab" />
+
+</FrameLayout>

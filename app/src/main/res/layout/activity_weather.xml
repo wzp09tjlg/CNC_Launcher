@@ -1,0 +1,269 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/dimen_96dp"
+    android:paddingStart="@dimen/dimen_96dp"
+    android:paddingTop="@dimen/dimen_50dp">
+
+    <LinearLayout
+        android:id="@+id/ll_weather_part"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_550dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/view_today"
+            android:layout_width="@dimen/dimen_548dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dimen_50dp"
+            android:background="@drawable/bg_weather">
+
+            <TextView
+                android:id="@+id/temp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_28dp"
+                android:layout_marginTop="@dimen/dimen_40dp"
+                android:textSize="@dimen/dimen_56sp" />
+
+            <TextView
+                android:id="@+id/wind1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/temp1"
+                android:layout_below="@+id/temp1"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:textSize="@dimen/dimen_30sp" />
+
+            <TextView
+                android:id="@+id/weather1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/temp1"
+                android:layout_below="@+id/wind1"
+                android:layout_marginTop="@dimen/dimen_28dp"
+                android:textSize="@dimen/dimen_30sp" />
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/dimen_28dp"
+                android:layout_marginTop="@dimen/dimen_54dp"
+                android:textSize="@dimen/dimen_40sp" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/image1"
+                android:layout_width="@dimen/dimen_350dp"
+                android:layout_height="@dimen/dimen_320dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="@dimen/dimen_50dp"
+                fresco:actualImageScaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/china_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dimen_50dp"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/dimen_28sp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/china_time"
+                android:layout_centerHorizontal="true"
+                android:text="2015-06-19 星期六"
+                android:textSize="@dimen/dimen_30sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dimen_350dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dimen_25dp"
+            android:background="@drawable/bg_weather"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weekday2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_40dp"
+                android:textSize="@dimen/dimen_36sp" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/image2"
+                android:layout_width="@dimen/dimen_168dp"
+                android:layout_height="@dimen/dimen_171dp"
+                android:layout_marginTop="@dimen/dimen_40dp" />
+
+            <TextView
+                android:id="@+id/temp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_30dp"
+                android:textSize="@dimen/dimen_40sp" />
+
+            <TextView
+                android:id="@+id/weather2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_30dp"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/dimen_28sp" />
+
+            <TextView
+                android:id="@+id/wind2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/dimen_28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dimen_350dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dimen_25dp"
+            android:background="@drawable/bg_weather"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weekday3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_40dp"
+                android:textSize="@dimen/dimen_36sp" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/image3"
+                android:layout_width="@dimen/dimen_168dp"
+                android:layout_height="@dimen/dimen_171dp"
+                android:layout_marginTop="@dimen/dimen_40dp" />
+
+            <TextView
+                android:id="@+id/temp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_30dp"
+                android:textSize="@dimen/dimen_40sp" />
+
+            <TextView
+                android:id="@+id/weather3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_30dp"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/dimen_28sp" />
+
+            <TextView
+                android:id="@+id/wind3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/dimen_28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dimen_350dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_weather"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weekday4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_40dp"
+                android:textSize="@dimen/dimen_36sp" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/image4"
+                android:layout_width="@dimen/dimen_168dp"
+                android:layout_height="@dimen/dimen_171dp"
+                android:layout_marginTop="@dimen/dimen_40dp" />
+
+            <TextView
+                android:id="@+id/temp4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_30dp"
+                android:textSize="@dimen/dimen_40sp" />
+
+            <TextView
+                android:id="@+id/weather4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_30dp"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/dimen_28sp" />
+
+            <TextView
+                android:id="@+id/wind4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/dimen_28sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_weather_part"
+        android:layout_marginTop="@dimen/dimen_30dp">
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="@dimen/dimen_24dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_app_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_24dp"
+            android:layout_toRightOf="@+id/arrow"
+            android:text="最近使用"
+            android:textSize="@dimen/dimen_46sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/img_line"
+        android:layout_width="@dimen/dimen_1728dp"
+        android:layout_height="@dimen/dimen_1dp"
+        android:layout_below="@+id/rl_line"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:background="@drawable/horizontal_line" />
+
+    <cn.cncgroup.tv.ui.widget.gridview.HorizontalGridView
+        android:id="@+id/hgridview_type_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img_line"
+        android:layout_marginEnd="@dimen/dimen_50dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_app_open_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/img_line"
+        android:gravity="center"
+        android:text="@string/no_open_history" />
+</RelativeLayout>

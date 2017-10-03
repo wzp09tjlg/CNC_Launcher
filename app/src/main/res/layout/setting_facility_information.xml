@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/shutdown_img_up"
+        android:layout_width="@dimen/dimen_34dp"
+        android:layout_height="@dimen/dimen_16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/dimen_80dp"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_arrows_up"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/address_tview"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_80dp"
+        android:layout_below="@+id/shutdown_img_up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:background="@drawable/facilityinformation_shape"
+        android:focusable="true"
+        android:nextFocusUp="@+id/address_textview"
+        android:nextFocusDown="@+id/address_textview"
+        android:descendantFocusability="beforeDescendants"
+        android:gravity="center"
+        android:text="New Text"
+        android:textColor="#f0f0f0"
+        android:textSize="@dimen/dimen_40sp"
+      />
+
+    <ImageView
+        android:id="@+id/shutdown_img_down"
+        android:layout_width="@dimen/dimen_34dp"
+        android:layout_height="@dimen/dimen_16dp"
+        android:layout_below="@+id/address_tview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_arrows_down"
+        android:visibility="invisible" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_facility_information"
+        android:layout_width="@dimen/dimen_700dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/shutdown_img_down"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_10dp"
+         />
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+</RelativeLayout>

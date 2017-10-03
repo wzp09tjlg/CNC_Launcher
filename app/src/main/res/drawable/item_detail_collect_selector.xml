@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <selector>
+            <item android:state_focused="true">
+                <bitmap android:src="@drawable/icon_collected_hover" />
+            </item>
+            <item android:state_focused="false">
+                <bitmap android:src="@drawable/icon_collected_normal" />
+            </item>
+        </selector>
+    </item>
+    <item android:state_selected="false">
+        <selector>
+            <item android:state_focused="true">
+                <bitmap android:src="@drawable/icon_collect_hover" />
+            </item>
+            <item android:state_focused="false">
+                <bitmap android:src="@drawable/icon_collect_normal" />
+            </item>
+        </selector>
+    </item>
+</selector>

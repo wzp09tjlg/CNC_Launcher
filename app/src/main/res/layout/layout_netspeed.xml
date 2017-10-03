@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ProgressBar
+        android:id="@+id/net_process"
+        style="@android:style/Widget.ProgressBar.Large.Inverse"
+        android:layout_width="@dimen/dimen_82dp"
+        android:layout_height="@dimen/dimen_82dp"
+        android:layout_marginTop="@dimen/dimen_380dp"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/player_loading" />
+
+    <TextView
+        android:id="@+id/tv_netspeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/net_process"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_22dp"
+        android:textSize="@dimen/dimen_36sp" />
+
+    <TextView
+        android:id="@+id/tv_suggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_netspeed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_22dp"
+        android:text="@string/player_suggest"
+        android:textSize="@dimen/dimen_36sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

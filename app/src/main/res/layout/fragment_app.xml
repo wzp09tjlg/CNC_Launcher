@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <cn.cncgroup.tv.ui.widget.gridview.VerticalGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_700dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/dimen_96dp"
+        android:layout_marginRight="@dimen/dimen_96dp"
+        android:layout_marginTop="@dimen/dimen_97dp"
+        android:gravity="center"
+        app:focusOutEnd="true"
+        app:focusOutFront="true"
+        app:horizontalMargin="@dimen/dimen_48dp"
+        app:numberOfColumns="5"
+        app:verticalMargin="@dimen/dimen_70dp" />
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+
+</FrameLayout>

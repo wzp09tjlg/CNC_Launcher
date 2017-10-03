@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_520dp"
+    android:layout_height="@dimen/dimen_326dp"
+    android:background="@drawable/dialog_bg">
+
+    <RelativeLayout
+        android:id="@+id/ll_out"
+        android:layout_width="@dimen/dimen_520dp"
+        android:layout_height="@dimen/dimen_326dp"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/dialog_rl_negative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center">
+
+            <cn.cncgroup.tv.ui.widget.ItemGridview
+                android:layout_width="@dimen/dimen_300dp"
+                android:layout_height="@dimen/dimen_76dp"
+                android:background="@drawable/home_title_focus_select"
+                android:duplicateParentState="true"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/negativeButton"
+                android:layout_width="@dimen/dimen_300dp"
+                android:layout_height="@dimen/dimen_76dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/footmark_dialog_text_bg"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/footmark_clean"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/dimen_38sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/dialog_rl_positive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_rl_negative"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen_015dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center">
+
+            <cn.cncgroup.tv.ui.widget.ItemGridview
+                android:layout_centerInParent="true"
+                android:layout_width="@dimen/dimen_300dp"
+                android:layout_height="@dimen/dimen_76dp"
+                android:background="@drawable/home_title_focus_select"
+                android:duplicateParentState="true" />
+
+            <TextView
+                android:id="@+id/positiveButton"
+                android:layout_width="@dimen/dimen_300dp"
+                android:layout_height="@dimen/dimen_76dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/footmark_dialog_text_bg"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/footmark_delete"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/dimen_38sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

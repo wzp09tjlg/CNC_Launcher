@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/dpad_center"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@drawable/dpad_left"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@drawable/dpad_top"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@drawable/dpad_right"
+        android:maxLevel="3" />
+    <item
+        android:drawable="@drawable/dpad_bottom"
+        android:maxLevel="4" />
+</level-list>

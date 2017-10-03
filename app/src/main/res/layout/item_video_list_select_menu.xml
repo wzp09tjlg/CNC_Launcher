@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_144dp"
+    android:layout_height="@dimen/dimen_60dp">
+
+    <ImageView
+        android:id="@+id/video_list_select_img_menu"
+        android:layout_width="@dimen/dimen_25dp"
+        android:layout_height="@dimen/dimen_25dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_film_select_type" />
+
+    <TextView
+        android:id="@+id/video_list_select_text_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_30dp"
+        android:layout_toRightOf="@id/video_list_select_img_menu"
+        android:singleLine="true"
+        android:text="剧情"
+        android:textSize="@dimen/dimen_38sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text=":"
+        android:textSize="@dimen/dimen_38sp" />
+</RelativeLayout>

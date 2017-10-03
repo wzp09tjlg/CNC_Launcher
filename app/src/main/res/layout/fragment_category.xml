@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.cncgroup.tv.view.homesecond.widget.CategoryRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_692dp"
+        android:layout_marginTop="@dimen/dimen_72dp"
+        android:clipToPadding="false"
+        android:paddingLeft="@dimen/dimen_96dp"
+        android:paddingRight="@dimen/dimen_96dp" />
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+
+</FrameLayout>

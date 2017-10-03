@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.cncgroup.tv">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 获取应用的包大小的权限 -->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <!-- 清楚应用缓存权限 -->
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <!-- 百度统计权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+
+    <!-- 开机启动权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 定时关机权限-->
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <!-- 网络设置权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SET_PROCESS_FOREGROUND" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
+    <uses-permission android:name="android.permission.USE_SPECIAL_UDISK" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNALY" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <!-- 自适应 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name=".CApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- APP KEY -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="568175785a" />
+        <!-- 渠道商编号 -->
+        <!--
+               <meta-data
+               android:name="BaiduMobAd_CHANNEL"
+               android:value="S805" />
+        -->
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="FootmarkCollect.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="cn.cncgroup.tv.db.VideoSetDao" />
+        <!-- 日志发送策略，可选值：APP_START、ONCE_A_DAY、SET_TIME_INTERVAL，默认为APP_START -->
+        <meta-data
+            android:name="BaiduMobAd_SEND_STRATEGY"
+            android:value="APP_START" />
+        <!-- 是否获取GPS位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="true" />
+        <!-- 是否开启错误日志统计，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="true" />
+
+        <!-- 是否获取WIFI位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="true" />
+
+        <activity
+            android:name=".WelcomeActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:logo="@drawable/ic_launcher"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".network.TestActivity"
+            android:screenOrientation="landscape" />
+
+        <!-- 开机启动 -->
+        <receiver android:name=".view.setting.AppStartReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".network.ConnectionChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".player.PlayHistoryReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.qiyi.tvplayer.drpeng.action.ACTION_ADD_PLAYRECORD" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".player.YoupengHistoryReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.voole.epg.action.stopplay" />
+                <action android:name="com.voole.epg.action.playCompleted" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".view.detail.VideoDetailActivity" />
+        <activity
+            android:name=".view.app.AppSetActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.weather.WeatherActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".cncplayer.PlayerContainerActivity" />
+        <activity
+            android:name=".cncplayer.localplayer.LocalPlayerActivity"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/mpeg" />
+                <data android:mimeType="video/mp4" />
+                <data android:mimeType="video/x-msvideo" />
+                <data android:mimeType="video/msvideo" />
+                <data android:mimeType="video/avi" />
+                <data android:mimeType="application/x-troff-msvideo" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.footmark.HistoryActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".view.weather.WeatherCityActivity" />
+        <activity
+            android:name=".view.homesecond.HomeActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.setting.SettingBootCustomActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.setting.GeneralSettingsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.setting.SettingSoftwareUpgradeActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.footmark.CollectActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.video.VideoListActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.search.SearchActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.subject.SubjectActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.subject.SubjectListActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.app.AppShowAllActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".view.setting.SettingActivity" />
+        <activity
+            android:name=".view.footmark.FootmarkActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".view.setting.AutoShutdownActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.setting.SettingHomeActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.setting.media.MediaSettingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.setting.media.CalibrationSettingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.network.NetworkSettingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".settings.TestActivity"
+            android:screenOrientation="landscape" />
+
+        <receiver android:name=".cncplayer.localplayer.ExternalStorageReceiver" >
+            <intent-filter android:priority="10000" >
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_REMOVED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".view.homesecond.AppUninstallBroadcast" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".update.DownLoadService" />
+        <service android:name=".view.setting.AutoShutdownService" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fresco:actualImageScaleType="centerCrop" />
+
+    <cn.cncgroup.tv.ui.widget.gridview.HorizontalGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_460dp"
+        android:layout_marginBottom="@dimen/dimen_64dp"
+        android:layout_marginLeft="@dimen/dimen_142dp"
+        android:layout_marginRight="@dimen/dimen_142dp"
+        android:layout_marginTop="@dimen/dimen_580dp"
+        android:layoutAnimation="@anim/vedio_list_item_in"
+        app:horizontalMargin="@dimen/dimen_68dp"
+        app:numberOfRows="1" />
+
+    <ImageView
+        android:id="@+id/indictor_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/dimen_48dp"
+        android:layout_marginTop="@dimen/dimen_760dp"
+        android:src="@drawable/icon_left"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/indictor_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dimen_48dp"
+        android:layout_marginTop="@dimen/dimen_760dp"
+        android:src="@drawable/icon_right"
+        android:visibility="invisible" />
+
+    <cn.cncgroup.tv.ui.widget.ShadowView
+        android:id="@+id/shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_title_focus"
+        android:visibility="invisible" />
+
+</RelativeLayout>

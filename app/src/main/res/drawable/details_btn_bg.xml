@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/dimen_50dp" />
+                    <solid android:color="@color/detail_btn_bg" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!--<item android:state_focused="false" android:state_selected="true">-->
+        <!--<shape>-->
+            <!--<corners android:radius="@dimen/dimen_50dp" />-->
+            <!--&lt;!&ndash;<stroke android:width="@dimen/dimen_8dp" android:color="@android:color/transparent" />&ndash;&gt;-->
+            <!--<solid android:color="@color/white_50" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+    <item android:state_focused="false" >
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/dimen_50dp" />
+                    <stroke android:width="@dimen/dimen_2dp" android:color="@color/white_60" />
+                    <!--<corners android:radius="@dimen/dimen_6dp" />-->
+                </shape>
+            </item>
+            <!--<item>-->
+                <!--<shape>-->
+                    <!--<stroke android:width="@dimen/dimen_12dp" android:color="@android:color/transparent" />-->
+                    <!--&lt;!&ndash;<corners android:radius="@dimen/dimen_6dp" />&ndash;&gt;-->
+                    <!--<solid android:color="@color/glass_bg" />-->
+                    <!--<padding-->
+                        <!--android:left="2dp"-->
+                        <!--android:top="2dp"-->
+                        <!--android:right="2dp"-->
+                        <!--android:bottom="2dp"/>-->
+                <!--</shape>-->
+            <!--</item>-->
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/dimen_50dp" />
+                    <stroke android:width="@dimen/dimen_1dp" android:color="@color/white_60" />
+                    <!--<corners android:radius="@dimen/dimen_6dp" />-->
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <stroke android:width="@dimen/dimen_8dp" android:color="@android:color/transparent" />
+                    <corners android:radius="@dimen/dimen_50dp" />
+                    <solid android:color="@color/glass_bg" />
+                    <padding
+                        android:left="2dp"
+                        android:top="2dp"
+                        android:right="2dp"
+                        android:bottom="2dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

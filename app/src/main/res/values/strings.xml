@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--退出应用提示-->
+    <string name="exit_tip">再按一次退出应用</string>
+    <!-- 首页上面四个标签 -->
+    <string name="app_name">CNC影视</string>
+    <string name="title_use">应用</string>
+    <string name="title_movie">电影</string>
+    <string name="title_teleplay">电视剧</string>
+    <string name="title_variety">综艺</string>
+    <string name="title_rest">频道</string>
+    <string name="history_collect">历史/收藏</string>
+    <!-- 影视页 -->
+    <string name="film_search">搜 索</string>
+    <string name="film_select">筛 选</string>
+    <string name="film">电 影</string>
+    <string name="film_info1">可按菜单键</string>
+    <string name="video_pick_menu">可按菜单键</string>
+    <string name="video_pick_select">筛选</string>
+    <string name="video_list_name">卧虎藏龙</string>
+    <!-- 全部应用 -->
+    <string name="app">应用</string>
+    <string name="all_app">全部应用</string>
+    <string name="setting">设置</string>
+    <string name="click_add">点击添加</string>
+    <string name="filemanager">文件管理</string>
+
+    <!--足迹  收藏-->
+    <string name="empty_dialog_title">确定要清空收藏？</string>
+    <string name="empty_history_dialog_title">确定要清空历史？</string>
+    <!-- 应用设置 -->
+    <string name="appset_cache_cleaned_succeed">已清理缓存</string>
+    <string name="app_set_title">应用设置</string>
+    <string name="use_toast_msg">可按菜单键将应用置顶或移除</string>
+    <string name="not_found_app">您还未安装应用</string>
+    <string name="autoShutdown">定时关机</string>
+    <string name="unAutoShutdown">您当前还未开启自动关机功能哦</string>
+    <string name="shutdownTip">点击OK键确定关机时间</string>
+    <!-- 播放详情页 -->
+    <string name="app_invoke_error">没有找到应用</string>
+    <string name="app_invoke_error_error">调用错误</string>
+
+    <!-- 电视剧详情页 -->
+    <string name="detail_whole">%s集全</string>
+    <string name="detail_renewal">更新至%s集</string>
+    <string name="year">年</string>
+    <string name="collect_play">第%s集</string>
+    <string name="select_collects">选集</string>
+    <string name="ungather">收藏</string>
+    <string name="gather">已收藏</string>
+    <string name="recommend">相关推荐</string>
+    <string name="detail_presenter">主持人：</string>
+    <string name="detail_brief">简&#160;&#160;&#160;&#160;介：</string>
+    <string name="detail_stage">期</string>
+    <string name="nulls">暂无</string>
+    <string name="play_text">播放</string>
+    <!-- 下载 -->
+    <string name="message">应用未安装，去下载</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="dialog_default_speed">0.0k/s</string>
+    <string name="dialog_default_percent">0.0%</string>
+    <string name="dialog_message">正在下载中...</string>
+    <string name="downloadText">不要断开电源或网络...</string>
+    <string name="tip_clearcache">确定清除缓存</string>
+    <string name="back_downloader">后台下载</string>
+    <string name="dialog_text1">内置空间不足</string>
+    <string name="dialog_text2">建议卸载一些不常用的应用。</string>
+    <string name="dialog_text3">卸载其他应用</string>
+    <string name="dialog_text4">放弃安装</string>
+    <string name="dismiss">取消</string>
+
+    <!-- App更新 -->
+    <string name="update">立即更新</string>
+    <string name="noUpdate">就不更新</string>
+    <string name="update_dialog_msg">检测到有新版本，立即更新？</string>
+    <string name="nomemery_dialog_warm">存储空间不足</string>
+
+    <!-- AlertDialog -->
+    <string name="alert_dialog_message_active_error">设备激活失败</string>
+    <string name="alert_dialog_message_login_error">设备登录失败</string>
+    <string name="alert_dialog_message_network_error">盒子未连接网络</string>
+    <!-- Display -->
+
+    <string name="footmark_clean">清空</string>
+    <string name="footmark_delete">删除</string>
+    <string name="footmark_clean_delete">清空或删除</string>
+    <string name="collect_clean_already">收藏已清空</string>
+    <string name="history_clean_already">历史已清空</string>
+    <string name="footmark_clean_text">清     空</string>
+    <string name="footmark_delete_text">删     除</string>
+    <string name="netwrok_submit">提交</string>
+    <string name="label_wifiswitch">无线网络开关</string>
+
+    <!-- 代码文字 -->
+    <string name="already_connect">已连接</string>
+    <!--网络设置-->
+    <string name="sd_card_msg">可用 / 共</string>
+
+    <string name="air_quailty_one">优</string>
+    <string name="air_quailty_two">良</string>
+    <string name="air_quailty_three">轻度污染</string>
+    <string name="air_quailty_four">中度污染</string>
+    <string name="air_quailty_five">重度污染</string>
+    <string name="air_quailty_six">严重污染</string>
+    <string name="no_open_history">没有最近打开的应用</string>
+    <string name="more_early">更早</string>
+    <string name="activity_collect_title">收藏</string>
+    <string name="activity_history_title">历史</string>
+    <string name="today">今天</string>
+    <string name="search">搜索</string>
+    <string name="search_hint">首字母搜索：如《无间道》搜索WJD</string>
+    <string name="search_menubefore">可按菜单键</string>
+    <string name="search_menuafter">进行删除</string>
+    <string name="hot_search">热门搜索</string>
+    <string name="search_result">搜索结果</string>
+    <!--player-->
+    <string name="exit_player_tips">再按一次退出播放</string>
+    <string name="quickaccess_variety">综艺</string>
+    <string name="quickaccess_other">其它</string>
+    <string name="quickaccess_teleplay">电视剧</string>
+    <string name="quickaccess_movies">电影</string>
+    <string name="quickaccess_search">搜索</string>
+    <string name="quickaccess_history">历史</string>
+    <string name="quickaccess_collect">搜藏</string>
+    <string name="player_suggest">当前播放卡顿,建议切换至低清晰度观看.</string>
+
+    <string name="detail_time">上映：</string>
+    <string name="detail_long">片长：</string>
+    <string name="detail_area">地区：</string>
+    <string name="detail_type">类型：</string>
+    <string name="detail_direct">导演：</string>
+    <string name="detail_actor">主演：</string>
+    <string name="detail_content">简介：</string>
+    <string name="detail_util">选集</string>
+
+    <string name="subject">专题</string>
+    <string name="category_children">少儿</string>
+    <string name="category_anim">动漫</string>
+    <string name="category_life">生活</string>
+    <string name="category_music">音乐</string>
+    <string name="category_3d">3D体验</string>
+    <string name="category_record">纪录片</string>
+    <string name="search_notify">首字母搜索：如《无间道》搜索WJD\n\n英文搜索：如《Bingo》搜索BINGO</string>
+    <string name="no_update_app">未发现可使用的更新版本</string>
+
+    <!--百度统计相关-->
+    <string name="film_all">全部电影</string>
+    <string name="teleplay_all">全部电视剧</string>
+    <string name="variety_all">全部综艺</string>
+    <string name="app_all">全部应用</string>
+    <string name="settings">设置</string>
+    <string name="channel_project">专题</string>
+    <string name="channel_kinderkanal">少儿页</string>
+    <string name="channel_anime">动漫页</string>
+    <string name="channel_life">生活页</string>
+    <string name="channel_music">音乐页</string>
+    <string name="channel_documentary">纪录片页</string>
+    <string name="channel_3D">3D体验页</string>
+    <string name="search_launcher">首页搜索</string>
+    <string name="history">历史</string>
+    <string name="collection_page">收藏</string>
+    <string name="search_list">List页搜索</string>
+    <string name="filter_virtualclass">播单筛选</string>
+    <string name="filter_menu">菜单筛选</string>
+    <string name="weather_setting">天气设置</string>
+    <string name="app_updating">软件升级点击次数</string>
+    <string name="search_history">历史页搜索</string>
+    <string name="search_collection">收藏页搜索</string>
+    <string name="collection_button">收藏按钮</string>
+    <string name="film_playingpage">播放页电影</string>
+    <string name="teleplay_playingpage">播放页电视剧</string>
+    <string name="variety_playingpage">播放页综艺</string>
+    <string name="channel_playingpage">播放页其他</string>
+    <string name="search_playingpage">播放页搜索</string>
+    <string name="histroy_playingpage">播放页历史</string>
+    <string name="collection_playingpage">播放页收藏</string>
+    <string name="playing_count">调用播放次数</string>
+    <string name="playtime">播放时长</string>
+    <string name="start_player">开始播放</string>
+    <string name="stop_play">结束播放</string>
+    <string name="feedback0">影片太少</string>
+    <string name="feedback1">操作繁琐</string>
+    <string name="feedback2">有闪退现象</string>
+    <string name="feedback3">界面不美观</string>
+    <string name="feedback4">想要的功能没有</string>
+    <string name="scan">扫描二维码进行</string>
+    <string name="feed">反馈或建议</string>
+    <string name="feedback_succeed">反馈已提交成功</string>
+    <string name="temp_range">%1$s~%2$s℃</string>
+    <string name="title_activity_footmark">FootmarkActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="boot_custom">开机自定义</string>
+    <string name="general_setting">通用设置</string>
+    <string name="restore_tips">真的确定恢复出厂设置吗？</string>
+</resources>
